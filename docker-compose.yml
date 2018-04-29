@@ -1,7 +1,7 @@
 version: "3"
 services:
   web:
-    image: fakespot:latest
+    image: fakespot/fakespot.edu.pl:latest
     deploy:
       replicas: 1
       resources:
